@@ -1,12 +1,12 @@
-# Halý Saha Rezervasyon API
+ï»¿# HalÄ± Saha Rezervasyon API
 
-ASP.NET Core 9 ile geliþtirilmiþ RESTful API projesi.
+ASP.NET Core 9 ile geliÅŸtirilmiÅŸ RESTful API projesi.
 
-## Özellikler
-- JWT ile kimlik doðrulama ve yetkilendirme
-- Rol tabanlý eriþim kontrolü (Admin / Üye)
-- Saha yönetimi (CRUD)
-- Çakýþma kontrolü ile rezervasyon sistemi
+## Ã–zellikler
+- JWT ile kimlik doÄŸrulama ve yetkilendirme
+- Rol tabanlÄ± eriÅŸim kontrolÃ¼ (Admin / Ãœye)
+- Saha yÃ¶netimi (CRUD)
+- Ã‡akÄ±ÅŸma kontrolÃ¼ ile rezervasyon sistemi
 - Entity Framework Core + PostgreSQL
 - Swagger UI
 
@@ -15,11 +15,11 @@ ASP.NET Core 9 ile geliþtirilmiþ RESTful API projesi.
 - Entity Framework Core 9
 - PostgreSQL
 - JWT Bearer Authentication
-- BCrypt þifreleme
+- BCrypt ÅŸifreleme
 - Swagger / OpenAPI
 
 ## Kurulum
 1. Repoyu klonla
-2. appsettings.json içindeki connection string'i güncelle
+2. appsettings.json iÃ§indeki connection string'i gÃ¼ncelle
 3. dotnet ef database update
 4. dotnet run
