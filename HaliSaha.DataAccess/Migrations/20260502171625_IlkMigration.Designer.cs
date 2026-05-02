@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace HaliSaha.DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260502133028_IlkMigration")]
+    [Migration("20260502171625_IlkMigration")]
     partial class IlkMigration
     {
         /// <inheritdoc />

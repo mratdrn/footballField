@@ -9,7 +9,7 @@ namespace HaliSaha.DataAccess
         {
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
             optionsBuilder.UseNpgsql(
-                "Host=localhost;Database=HaliSahaDB;Username=postgres;Password=database1");
+            "Host=dpg-d7r2vesm0tmc7382frqg-a.frankfurt-postgres.render.com;Database=footballfield_db;Username=footballfield_db_user;Password=2f9Prgzn396dMELkoOIGt67pnPk5gjTr;SSL Mode=Require;Trust Server Certificate=true");
             return new AppDbContext(optionsBuilder.Options);
         }
     }
